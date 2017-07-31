@@ -1,0 +1,308 @@
+/* line 9, /Users/Looper/Desktop/resume-website/style.scss */
+body {
+  font-family: "montserrat", sans-serif;
+  padding-bottom: 5em; }
+
+/* line 14, /Users/Looper/Desktop/resume-website/style.scss */
+.border {
+  height: 6px;
+  border: 0;
+  background-color: #fd7473;
+  background-image: linear-gradient(to right, #fd7473, #fd7473 25%, #fec951 25%, #fec951 50%, #47b8e0 50%, #47b8e0 75%, #9f68d0 75%, #9f68d0 100%, #9f68d0 100%);
+  -webkit-background-size: 50% 100%;
+  -moz-background-size: 50% 100%;
+  background-size: 50% 100%; }
+
+/* line 35, /Users/Looper/Desktop/resume-website/style.scss */
+.wrapper {
+  wiidth: 750;
+  max-width: 90%;
+  margin: 0 auto; }
+
+/* line 41, /Users/Looper/Desktop/resume-website/style.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 46, /Users/Looper/Desktop/resume-website/style.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 50, /Users/Looper/Desktop/resume-website/style.scss */
+.main_header {
+  margin: 5em 0 3 em 0; }
+
+/* line 55, /Users/Looper/Desktop/resume-website/style.scss */
+.logo img {
+  width: 75px;
+  float: left; }
+
+/* line 59, /Users/Looper/Desktop/resume-website/style.scss */
+.logo h1 {
+  float: left;
+  margin: 0 0 0 1em;
+  font-size: 1.35em;
+  padding-top: 1.1em;
+  color: #34314c; }
+  /* line 65, /Users/Looper/Desktop/resume-website/style.scss */
+  .logo h1 span {
+    font-weight: 100; }
+
+/* line 72, /Users/Looper/Desktop/resume-website/style.scss */
+.nav {
+  float: right;
+  padding-top: 1.75em; }
+  /* line 75, /Users/Looper/Desktop/resume-website/style.scss */
+  .nav a {
+    color: #9592ad;
+    margin-left: 1em;
+    text-decoration: none; }
+
+/* line 82, /Users/Looper/Desktop/resume-website/style.scss */
+#resume {
+  width: 100%;
+  position: relative;
+  list-style: none;
+  padding: 0; }
+  /* line 87, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume:after {
+    content: " ";
+    width: 1px;
+    background: 1px #d9dee9;
+    height: 90%;
+    position: absolute;
+    top: 7em;
+    left: 3em;
+    z-index: 0; }
+  /* line 97, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume a {
+    text-decoration: none; }
+  /* line 100, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume .listing {
+    background: #FFFFFF;
+    border: 1px solid #d9dee9;
+    border-radius: .3em;
+    padding: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    z-index: 1;
+    display: table;
+    width: 96%;
+    transition: all .3s ease-in-out; }
+    /* line 110, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing img, #resume .listing .info, #resume .listing .job_type {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: .9em;
+      color: #9592ad; }
+    /* line 116, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .image_wrapper {
+      width: 60px; }
+      /* line 118, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .image_wrapper img {
+        width: 60px;
+        display: block;
+        margin: 0 auto;
+        border-radius: .25em; }
+    /* line 125, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .info {
+      line-height: 1.25;
+      width: 640px;
+      padding-left: 25px; }
+      /* line 129, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .info .job_title {
+        font-weight: 700;
+        color: #34314c;
+        font-size: 1.5em; }
+      /* line 134, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .info .job_info {
+        color: #9592ad;
+        display: block; }
+        /* line 137, /Users/Looper/Desktop/resume-website/style.scss */
+        #resume .listing .info .job_info span {
+          margin: 0 .75em; }
+    /* line 142, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .job_type {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: .75em;
+      position: relative;
+      white-space: nowrap;
+      padding-top: .6em;
+      width: 100px; }
+      /* line 150, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .job_type:before {
+        content: "";
+        background: #fd7473;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: absolute;
+        left: -20px; }
+    /* line 160, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .full_time {
+      color: #fd7473; }
+      /* line 162, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .full_time:before {
+        background: #fd7473; }
+    /* line 166, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .part_time {
+      color: #fec951; }
+      /* line 168, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .part_time:before {
+        background: #fec951; }
+    /* line 172, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .education {
+      color: #47b8e0; }
+      /* line 174, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .education:before {
+        background: #47b8e0; }
+    /* line 178, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .skill {
+      color: #9f68d0; }
+      /* line 180, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .skill:before {
+        background: #9f68d0; }
+    /* line 185, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .reference {
+      color: #34314c; }
+      /* line 187, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .reference:before {
+        background: #34314c; }
+    /* line 192, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .project {
+      color: #47b8e0; }
+      /* line 194, /Users/Looper/Desktop/resume-website/style.scss */
+      #resume .listing .project:before {
+        background: #47b8e0; }
+    /* line 199, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing:hover {
+      cursor: pointer;
+      box-shadow: 0px 2px 40px 0 rgba(0, 0, 0, 0.1); }
+  /* line 204, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume .section {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1em 0;
+    width: 100px;
+    background: #FFFFFF;
+    border: 1px solid #d9dee9;
+    border-radius: 3em;
+    font-weight: 700;
+    font-size: .75em;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    margin: 1em 0 2em 0; }
+
+/* line 221, /Users/Looper/Desktop/resume-website/style.scss */
+.contact {
+  text-align: center; }
+  /* line 223, /Users/Looper/Desktop/resume-website/style.scss */
+  .contact .btn {
+    border: 2px solid #9f68d0;
+    outline: none;
+    padding: 1em 3.5em;
+    text-align: center;
+    background: transparent;
+    border-radius: 3em;
+    color: #9f68d0;
+    transition: all .3s ease-in-out; }
+    /* line 232, /Users/Looper/Desktop/resume-website/style.scss */
+    .contact .btn:hover {
+      border: 2px solid #34314c;
+      color: #34314c; }
+
+/* line 239, /Users/Looper/Desktop/resume-website/style.scss */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  z-index: 4;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s; }
+  /* line 265, /Users/Looper/Desktop/resume-website/style.scss */
+  .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s; }
+  /* line 271, /Users/Looper/Desktop/resume-website/style.scss */
+  .cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1; }
+  /* line 276, /Users/Looper/Desktop/resume-website/style.scss */
+  .cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5; }
+  /* line 280, /Users/Looper/Desktop/resume-website/style.scss */
+  .no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1; }
+
+@media only screen and (max-width: 768px) {
+  /* line 288, /Users/Looper/Desktop/resume-website/style.scss */
+  .main_header {
+    margin: 3em 0; }
+  /* line 292, /Users/Looper/Desktop/resume-website/style.scss */
+  .logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+    /* line 296, /Users/Looper/Desktop/resume-website/style.scss */
+    .logo img {
+      float: none; }
+    /* line 299, /Users/Looper/Desktop/resume-website/style.scss */
+    .logo h1 {
+      float: none;
+      margin: 0;
+      font-size: 1.1em; }
+  /* line 306, /Users/Looper/Desktop/resume-website/style.scss */
+  .nav {
+    float: none;
+    text-align: center; }
+    /* line 309, /Users/Looper/Desktop/resume-website/style.scss */
+    .nav a {
+      margin: 0 .5em; }
+  /* line 313, /Users/Looper/Desktop/resume-website/style.scss */
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px; } }
+
+@media only screen and (max-width: 600px) {
+  /* line 324, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume .listing .image_wrapper {
+    margin-right: 1em; }
+    /* line 326, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .image_wrapper img {
+      width: 50px; }
+  /* line 330, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume .listing .info {
+    width: 100%;
+    padding: .4em 0 0 0; }
+    /* line 333, /Users/Looper/Desktop/resume-website/style.scss */
+    #resume .listing .info .job_title {
+      font-size: 1.25em; }
+  /* line 337, /Users/Looper/Desktop/resume-website/style.scss */
+  #resume .listing .job_type {
+    display: none; }
+  /* line 342, /Users/Looper/Desktop/resume-website/style.scss */
+  .cd-top {
+    right: 20px;
+    bottom: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
